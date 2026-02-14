@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #071521, #0d1f2c);
+    color: #ffffff;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.back {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.language {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Title */
+.title {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.6;
+    padding-bottom: 5px;
+}
+
+.tab.active {
+    opacity: 1;
+    border-bottom: 3px solid #d6a84c;
+}
+
+/* Input */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    color: white;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-bottom: 1px solid #d6a84c;
+}
+
+/* Remember */
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.remember input {
+    accent-color: #d6a84c;
+}
+
+/* Buttons */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    background: #d6a84c;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.download-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #d6a84c;
+    color: #d6a84c;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Links */
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 18px;
+}
